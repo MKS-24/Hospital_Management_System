@@ -1,0 +1,607 @@
+.navbar{
+    margin: auto;
+    width: 90%;
+    margin-top: 2vh;
+    height: 12vh;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.534);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbaritem {
+    margin: 0;
+}
+.navbaritem a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbaritem svg{
+    height: 6vh;
+}
+.navbaritem button a{
+    font-size: 0.95em;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbaritem button{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid grey;
+    border-radius: 40px;
+    padding: 0.5vh 2vh 0.5vh 1.5vh;
+}
+.profileimg img{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+}
+.navbaritem > a:hover{
+    border-bottom: 2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style:groove;
+    border-color:  rgb(95 111 255 );
+    opacity: 0.7;
+    /* background-color: red; */
+}
+.navbaritem button:hover{
+    box-shadow: 0px 0px 0.51vh rgb(95 111 255 );
+}
+
+.book-appointment{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(95 111 255 );
+    margin: auto;
+    width: 90%;
+    margin-top: 5vh;
+    height: 50vh;
+    border-radius: 1.5vh;
+    padding-top: 7vh;
+    padding-bottom: 6vh;
+}
+.book-appointment-text
+{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 7vh;
+}
+.book-text{
+    padding-right: 5vh;
+    height: 10vh;
+    color: white;
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.height-book{
+    height: 30vh;
+}
+.div2-book{
+    height:15vh;
+    font-size: 0.9em;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div2-book div{
+    background-size: cover;
+}
+.threeimg-text{
+    padding-left: 2vh;
+    padding-top: 1vh;
+    padding-right: 2vh;
+    height: 15vh;
+}
+.book-text a{
+    background-color: white;
+    position: relative;
+    bottom: 2vh;
+    border-radius: 30px;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-top: 1.75vh;
+    padding-bottom: 1.75vh;
+    font-size: 0.4em;
+    font-weight: 400;
+    border: 1px solid;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.664);
+}
+.book-appointment-image img{
+    height: 40vh;
+    margin-right: 8vh;
+    position: relative;
+    top: 16vh;
+}
+
+.logo-centre{
+margin: auto;
+}
+.signup-page{
+    position: relative;
+    top:15vh;
+    left:1vh; 
+    /* margin-left: 2vh ; */
+    display: flex;
+    justify-content: center;
+}
+.signup{
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    padding: 2vh 5vh 2vh 5vh;
+    border-radius: 1vh;
+    box-shadow: 0vh 0vh 2vh grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.562);
+}
+.signup button{
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(95 111 255);
+    border-style: none;
+    border-radius: 1vh;
+    color: white;
+    font-weight: 500;
+    font-size: 1.01em;
+}
+.signup a{
+    font-size: 0.9em;
+}
+.signup-page input{
+    position: relative;
+    top: 1.5vh;
+    height: 4vh;
+    width: 100%;
+}
+
+
+.aboutus{
+    position: relative;
+    top: 14vh;
+    left: 10vh;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+.about-us{
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #707070;
+}
+.imgabout img{
+    position: relative;
+    top: 30vh;
+    left: 6vh;
+    height: 50vh;
+}
+.discription-aboutus{
+    color: #707070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    padding: 2vh;
+    padding-left: 1vh;
+    width: 50%;
+    /* border: 1px solid; */
+    margin:auto ;
+    position: relative;
+    left: 28vh;
+    bottom: 16.5vh;
+    height: 45vh;
+}
+.discription-aboutus h4{
+    color: black;
+}
+
+.footer-1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    column-gap: 10vh;
+    padding-bottom: 5vh;
+    border-bottom: 2px solid #707070;
+}
+.footer-1 .footer-1div{
+
+    color: #707070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.footer-1 svg{
+    height: 6vh;
+}
+.footer-1 h2{
+    color: rgba(0, 0, 0, 0.836);
+    position: relative;
+    left: 5vh;
+}
+.footer-1div ul{
+    list-style: none;
+}
+.footer{
+    position: relative;
+    top: 10vh;
+}
+.footer-2
+{
+    padding-top: 3vh;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 3vh;
+}
+
+.contactimg{
+    position: relative;
+    left: 5vh;
+    bottom: 4vh;
+}
+.contactimg img{
+    height: 45vh;
+}
+.contact-description{
+    position: relative;
+    bottom: 20vh;
+    /* right: 55vh; */
+}
+
+.dashboard{
+    position: relative;
+    top: 15vh;
+    display: flex;
+    justify-content: center;
+}
+.dashboard-content{
+    box-shadow: 0px 0px 2vh#707070;
+    width: 70vh;
+    /* border: 1px solid #70707011; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.3vh;
+    overflow: hidden;
+}
+.dashboard-button{
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+}
+.dashboard-button a{
+    padding-top: 1.5vh;
+    text-align: center;
+    width: 100%;
+    font-size: 1.1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.027);
+    border-style: none;
+}
+.dashboard-button a{
+    text-decoration: none;
+    color: #555454;
+}
+.dashboard-button .active-div{
+    background-color: #396CF0;
+    color: white;
+}
+.dashboard-form form{
+    padding: 2vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+}
+.dashboard-form-div{
+    padding: 1vh;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.562);
+    
+}
+.flexdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard-form-div div{
+    width: 100%;
+    height: 8vh;
+
+}
+.dashboard-form-div input , select{
+    position: relative;
+    top: 1vh;
+    height: 4vh;
+    width: 90%;
+    border:1px solid #707070;
+    border-radius: 0.5vh;
+}
+.dashboard-form-div select option{
+    color:  #000000;
+}
+.dashboard-form-div textarea{
+    width: 94.5%;
+}
+.namediv input{
+    width: 94.5%;
+}
+.dashboard-form-div button{
+    width: 100%;
+    height: 5vh;
+    background-color: #396CF0;
+    border-style: none;
+    border-radius: 1vh;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.book-appointment-footer{
+    position: relative;
+    top: 35vh;
+}
+.dashboard-button .active-div{
+    background-color: #396CF0;
+    color: white;
+}
+.profile-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2vh;
+}
+.profile-content{
+    /* border: 1px solid; */
+    height: 5vh;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile-content p{
+    position: relative;
+    bottom: 1vh;
+}
+.profile-content-img
+{
+    position: relative;
+    top: 2vh;
+    height: 20vh;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2vh;
+    overflow: hidden;
+}
+.profile-content img
+{
+    height: 20vh;
+    width: 20vh;
+    /* border: 1px solid; */
+    /* border-radius: 5vh; */
+}
+.main-appointment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:sans-serif;
+    color: #474747;
+    font-weight: 500;
+}
+.see-appointment{
+    margin-top: 1vh;
+    height: 3vh;
+}
+.see-appointment-img{
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    height: 6vh;
+    box-shadow: 0px 0px 1vh #707070;
+
+}
+.see-appointment img{
+    height: 6vh;
+    width: 6vh;
+}
+.blue-color{
+    color:#396CF0 !important;
+    font-weight: 800 !important;
+}
+.navbar,.navbaritem{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+/* .dashboard-form button{
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(95 111 255);
+    border-style: none;
+    border-radius: 1vh;
+    color: white;
+    font-weight: 500;
+    font-size: 1.01em;
+}
+.dashboard-form input{
+    position: relative;
+    top: 1.5vh;
+    height: 4vh;
+    width: 100%;
+} */
+
+.viewbutton {
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    /* border: 0.5px  rgb(7, 14, 78); */
+    border-radius: 40px;
+    padding: 0.5vh 2vh 0.5vh 1.5vh;
+}
+
+.viewbutton a {
+    border-bottom: 1px solid;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgb(72, 87, 221);
+}
+
+/* .viewbutton a:hover{
+    border-top: 1px solid;
+    border-bottom: none;
+} */
+.viewbutton:hover {
+    box-shadow: 0px 0px 1vh;
+    color: rgb(72, 87, 221);
+
+    a {
+        border-top: 1px solid;
+        border-bottom: none;
+    }
+}
+
+.admin-video {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    position: relative;
+    top: 10vh;
+}
+
+.admin-video-div video {
+    height: 30vh;
+    width: 30vh;
+}
+
+.admin-footer {
+    position: relative;
+    top: 18vh;
+}
+
+.view-patient-main {
+    /* background-color: rgb(236, 145, 145); */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    flex-direction: row;
+    column-gap: 5vh;
+    row-gap: 5vh;
+    padding: 10vh;
+    padding-right: 2vh;
+    padding-left: 6vh;
+}
+
+.card {
+    width: 18.2vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgb(72, 87, 221,0.2); */
+    /* row-gap: 5vh; */
+}
+
+.card-pic {
+    height: 20vh;
+    background-color: #c0bebe;
+
+    line-height: 0vh;
+    border-radius: 1vh;
+}
+
+.card-para,
+hr {
+    width: 100%;
+    margin-top: 0;
+    /* font-size: 0.97cqw; */
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 0.5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #707070;
+    line-height: 2vh;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: rgb(72, 87, 221); */
+    box-shadow: 0px 0px 3vh rgb(72, 87, 221);
+
+    .card-para {
+        color: rgb(87, 78, 78);
+        text-align: center;
+    }
+
+    .card-pic {
+        background-color: rgb(72, 87, 221);
+    }
+}
+
+.view-patient-footer {
+    position: relative;
+    top: 0vh;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+}
+
+.add-doctor button {
+    padding: 1vh 2vh 1vh 2vh;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(72, 87, 221);
+    border-style: none;
+    background-color: white;
+    border-radius: 10px;
+    height: 10vh;
+    box-shadow:0vh 0vh 1vh ;
+}
+
+.add-doctor button:hover {
+    box-shadow: 0px 0px 1vh;
+    color: rgb(72, 87, 221);
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow:0vh 0vh 3vh ;
+}
+.add-doctor button{
+    position: relative;
+    bottom: 4vh;
+}
+.delete{
+    position: relative;
+    left: 5.5vh;
+    margin-top: 0.5vh;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: rgb(116, 118, 133);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: none;
+    font-weight:100;
+    padding: 0.5vh;
+    border-radius: 5px;
+    box-shadow: 0vh 0vh 1vh rgb(72, 87, 221);
+    /* border-style: 1px solid; */
+}
+.delete:hover{
+    box-shadow: 0vh 0vh 1vh red;
+}
